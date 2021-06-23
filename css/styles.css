@@ -127,18 +127,18 @@ h6 {
 }
 
 .btn-solid-reg:hover {
-  border: 1px solid #594cda;
-  background-color: transparent;
-  color: #594cda; /* needs to stay here because of the color property of a tag */
+  border: 1px solid #e53988;
+  background-color: B281E3;
+  color: #e53988; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
 .btn-solid-lg {
   display: inline-block;
   padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-  border: 1px solid #594cda;
+  border: 1px solid #434082;
   border-radius: 32px;
-  background-color: #594cda;
+  background-color: #434082;
   color: #ffffff;
   font-weight: 600;
   font-size: 0.875rem;
@@ -153,10 +153,14 @@ h6 {
   color: #fff;
 }
 
+.hello {
+  color: #434082;
+}
+
 .btn-solid-lg:hover {
-  border: 1px solid #594cda;
+  border: 1px solid #e53988;
   background-color: #ffff;
-  color: #594cda; /* needs to stay here because of the color property of a tag */
+  color: #e53988; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -172,14 +176,14 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-  border: 1px solid lawngreen;
-  background-color: lawngreen;
+  border: 1px solid #d8d6d3;
+  background-color: #d8d6d3;
 }
 
 .btn-solid-lg.secondary:hover {
-  border: 1px solid lawngreen;
+  border: 1px solid #d8d6d3;
   background: #ffff;
-  color: lawngreen; /* needs to stay here because of the color property of a tag */
+  color: D8D6D3; /* needs to stay here because of the color property of a tag */
 }
 
 .btn-outline-reg {
@@ -511,7 +515,7 @@ input[type='checkbox'] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-  color: black;
+  color: #434082;
   text-decoration: none;
 }
 
