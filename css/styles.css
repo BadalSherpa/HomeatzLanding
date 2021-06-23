@@ -136,10 +136,10 @@ h6 {
 .btn-solid-lg {
   display: inline-block;
   padding: 1.625rem 2.75rem 1.625rem 2.75rem;
-  border: 1px solid #434082;
+  border: 1px solid #fff;
   border-radius: 32px;
-  background-color: #434082;
-  color: #ffffff;
+  background-color: #ffff;
+  color: #e53988;
   font-weight: 600;
   font-size: 0.875rem;
   line-height: 0;
@@ -154,13 +154,13 @@ h6 {
 }
 
 .hello {
-  color: #434082;
+  color: #34113f;
 }
 
 .btn-solid-lg:hover {
-  border: 1px solid #e53988;
-  background-color: #ffff;
-  color: #e53988; /* needs to stay here because of the color property of a tag */
+  border: 1px solid #34113f;
+  background-color: #34113f;
+  color: #ffff; /* needs to stay here because of the color property of a tag */
   text-decoration: none;
 }
 
@@ -176,14 +176,15 @@ h6 {
 }
 
 .btn-solid-lg.secondary {
-  border: 1px solid #d8d6d3;
-  background-color: #d8d6d3;
+  border: 1px solid #34113f;
+  background-color: #34113f;
+  color: #ffff;
 }
 
 .btn-solid-lg.secondary:hover {
   border: 1px solid #d8d6d3;
   background: #ffff;
-  color: D8D6D3; /* needs to stay here because of the color property of a tag */
+  color: #e53988; /* needs to stay here because of the color property of a tag */
 }
 
 .btn-outline-reg {
@@ -515,7 +516,7 @@ input[type='checkbox'] {
 .dropdown.show > a,
 .nav-link:hover,
 .nav-link.active {
-  color: #434082;
+  color: #34113f;
   text-decoration: none;
 }
 
@@ -599,12 +600,16 @@ input[type='checkbox'] {
   text-align: center;
 }
 
-#features,
 #details,
 #seconddetail,
 #pricing,
 .counter {
   background-color: #e53988;
+}
+
+#features,
+#testimonial {
+  background-color: #ffff;
 }
 
 .cards-1 .card {
@@ -615,7 +620,7 @@ input[type='checkbox'] {
   background-color: #f1f9fc;
 }
 .detailc {
-  color: #ffff;
+  color: #e53988;
 }
 
 .cards-1 .card-image {
@@ -718,9 +723,7 @@ input[type='checkbox'] {
   margin-left: 1.75rem;
   vertical-align: top;
 }
-#testimonial {
-  background-color: #e53988;
-}
+
 .counter #counter .counter-value {
   color: #ffff;
   font-weight: 700;
@@ -785,7 +788,7 @@ input[type='checkbox'] {
 
 .slider-1 .testimonial-author {
   margin-bottom: 0;
-  color: #ffff;
+  color: #e53988;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.5rem;
